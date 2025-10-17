@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+
+/* p:0 shortcut for padding*/
+
+}
+
+
+.boxes{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    padding: 20px;
+    margin: 20px;
+    border: 4px solid rgb(36, 0, 102);
+    
+
+}
+.box{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+
+}
+.Image{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=clouds-cloudy-countryside-236047.jpg&fm=jpg");
+background-repeat: no-repeat;
+background-size: cover;
+    
+
+}
